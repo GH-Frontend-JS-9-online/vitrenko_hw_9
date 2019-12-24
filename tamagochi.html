@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./style.css">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<title>Tamagochi</title>
+</head>
+<body>
+	<header>
+		<div class="level">
+			<button>Easy</button>
+			<button>Hard</button>
+		</div>
+		<button onclick="start()">Start</button>
+	</header>
+
+	<main>
+		<div>
+			<span>Food</span>
+			<progress class="food" id="food" max="100"></progress>
+		</div>
+
+		<div>
+			<span>Clean</span>
+			<progress class="clean" id="clean" max="100"></progress>
+		</div>
+
+		<div>
+			<span>Happiness</span>	
+			<progress class="happiness" id="happiness" max="100"></progress>
+		</div>
+
+		<div>
+			<span>Health</span>
+			<progress id="health" max="100"></progress>
+		</div>
+
+		<div>
+			<span>Socializaion</span>
+			<progress id="socialization" max="100"></progress>
+		</div>
+
+		<div>
+			<span>Money</span>
+			<progress id="money" max="100"></progress>
+		</div>
+
+		<div class="buttons">
+			<button onclick="wash()">Wash Me!</button>
+			<button onclick="eat()">Feed Me!</button>
+			<button onclick="play()">Play with Me!</button>
+			<button onclick="doctor()">Visit a doctor</button>
+			<button onclick="bar()">Go to bar</button>
+			<button onclick="work()">Go to work</button>
+			<button onclick="food1()">Buy food</button>
+			<button onclick="business()">Start a business</button>
+			<button onclick="document.location.reload(true)">Restart</button>		
+		</div>
+	</main>	
+	<script src="./easy.js"></script>
+</body>
+</html>

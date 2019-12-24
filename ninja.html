@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link rel="stylesheet" href="./css/ninja-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<title>Ninja</title>
+</head>
+<body>
+	<button onclick="start()" class="start">Start</button>
+
+	<main>
+		<div>
+			<span>Food</span>
+			<input type="number" class="value" id="food" value="">
+		</div>
+
+		<div>
+			<span>Clean</span>
+			<input type="number" class="value" id="clean" value="">
+		</div>
+
+		<div>
+			<span>Happiness</span>	
+			<input type="number" class="value" id="happiness" value="">
+		</div>
+
+		<div>
+			<span>Health</span>
+			<input type="number" class="value" id="health" value="">
+		</div>
+
+		<div>
+			<span>Socializaion</span>
+			<input type="number" class="value" id="socialization" value="">
+		</div>
+
+		<div>
+			<span>Money</span>
+			<input type="number" class="value" id="money" value="">
+		</div>
+	</main>	
+
+	<div class="buttons">
+			<button onclick="wash()">Wash Me!</button>
+			<button onclick="eat()">Feed Me!</button>
+			<button onclick="play()">Play with Me!</button>
+			<button onclick="doctor()">Visit a doctor</button>
+			<button onclick="bar()">Go to bar</button>
+			<button onclick="work()">Go to work</button>
+			<button onclick="food1()">Buy food</button>
+			<button onclick="business()">Start a business</button>
+			<button onclick="document.location.reload(true)">Restart</button>		
+		</div>
+	<script src="./js/hard.js"></script>
+</body>
+</html>
